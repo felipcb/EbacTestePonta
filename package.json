@@ -1,0 +1,23 @@
+{
+  "name": "ebac_teste_ponta_a_ponta",
+  "version": "1.0.0",
+  "description": "12/10/2022 \r     20h15 projeto Gherkin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipcb/EbacTestePonta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipcb/EbacTestePonta/issues"
+  },
+  "homepage": "https://github.com/felipcb/EbacTestePonta#readme",
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  }
+}
