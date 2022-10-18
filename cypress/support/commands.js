@@ -1,3 +1,4 @@
+
 Cypress.Commands.add('login', (email, senha) => {
     cy.get('#username').type(email)
     cy.get('#password').type(senha)
@@ -30,3 +31,24 @@ Cypress.Commands.add('fecharCompra', (nome, sobrenome, cidade, estado, endereco,
     cy.get('#place_order').click()
     
 })
+
+//Cupom
+
+Cypress.Commands.add('cadastrarCupom' , (enderecoUrl,token) =>{
+    var novoCupom = `Coupon ${Math.floor(Math.random() * 10000)}`           
+    cy.request({
+        method: 'POST', 
+        url: enderecoUrl,
+        headers: {authorization: token}, 
+        body: 
+        {
+            "code": novoCupom,
+            "amount": '10',
+            "discount_type": "fixed_product",
+            "description": "Cupom de desconto de teste"
+          }
+    }).then(response => {
+        expect(response.status).to.equal(201)        
+        expect([response.body]).to.be.instanceOf(Array)         
+    })  
+ })

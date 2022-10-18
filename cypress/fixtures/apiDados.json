@@ -1,0 +1,11 @@
+{
+    "id": "7400",
+    "fake_id": "999999",
+    "codigo": "MeuDesconto",
+    "amount": "10.00",
+    "discount_type": "fixed_product",
+    "description": "Cupom de teste", 
+    "urlApi": "http://lojaebac.ebaconline.art.br/wp-json/wc/v3/coupons/",
+    "urlListaCupons": "http://lojaebac.ebaconline.art.br/wp-json/wc/v3/coupons/7400",
+    "urlCupomInvalido": "http://lojaebac.ebaconline.art.br/wp-json/wc/v3/coupons/9999"
+  }
