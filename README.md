@@ -4,10 +4,14 @@ Este projeto foi desenvolvido para `automação de testes` no site:
 http://lojaebac.ebaconline.art.br/
 ___
 > Status: Desenvolvido 
+<br>
 
 ![img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
+___
+
 <br>
 <br>
+
 ## Objetivo
 Este projeto foi desenvolvido para automatizar os sistemas funcionais e não funcionais da Loja Ebac.
 http://lojaebac.ebaconline.art.br/
@@ -25,7 +29,8 @@ git clone https://github.com/felipcb/EbacTestePonta.git
 
 ### Dependências:
 ``` 
-npm install 
+npm install -y
+npm install cypress --save-dev
 ```
 
 ### Para executar Headless:
