@@ -13,7 +13,8 @@ critérios de aceitação
 casos de testes
 
 
-Estratégia de teste [img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
+Estratégia de teste 
+![img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
 
 Dados
 
