@@ -16,6 +16,6 @@ casos de testes
 Estratégia de teste 
 ![img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
 
-
+asd
 
 
