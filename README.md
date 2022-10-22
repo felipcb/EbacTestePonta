@@ -1,21 +1,39 @@
 # **Loja Ebac** 
 ## *Automação de teste - QA*
-Este projeto foi desenvolvido para `automação de testes` em site e-commerce.
+Este projeto foi desenvolvido para `automação de testes` no site:
+http://lojaebac.ebaconline.art.br/
 ___
-![Image Link]()
+> Status: Desenvolvido 
 
-### Índice
-
-estratégia de teste
-
-critérios de aceitação
-
-casos de testes
-
-
-Estratégia de teste 
 ![img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
+<br>
+<br>
+## Objetivo
+Este projeto foi desenvolvido para automatizar os sistemas funcionais e não funcionais da Loja Ebac.
+http://lojaebac.ebaconline.art.br/
 
-asd
+## Clonando e executando em sua máquina 
 
+### Pré-requisito:
+- Node.js - Você encontra em: https://nodejs.org/en/
+- Visual Studio Code, ou outro editor de sua preferência - Você encontra em: https://code.visualstudio.com/download
 
+## Via terminal, rode os seguintes comandos:
+```
+git clone https://github.com/felipcb/EbacTestePonta.git
+```
+
+### Dependências:
+``` 
+npm install 
+```
+
+### Para executar Headless:
+```
+npx cypress run
+```
+
+### Para executar via Dashboard:
+``` 
+npx cypress open
+```
