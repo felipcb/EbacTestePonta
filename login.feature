@@ -8,7 +8,7 @@
             Contexto:
             Dado que eu acesse o portal de identificação da Ebac
 
-            Cenário: Autenticação válida
+            Cenário: Autenticação válida 
             Quando eu digitar "joao@ebac.com.br"
             E a senha "senha@123"
             Então exibir página: "Minha Conta"
@@ -18,7 +18,7 @@
             E a senha "senha@123"
             Então exibir mensagem de alerta: "Endereço de e-mail desconhecido."
 
-            Cenário: Senha incorreta 
+            Cenário: Usuário com senha inválida 
             Quando eu digitar "joao@ebac.com.br"
             E a senha "senhaIncorreta"
             Então exibir alerta de Erro: "A senha fornecida para o e-mail joao@ebac.com.br está incorreta."
