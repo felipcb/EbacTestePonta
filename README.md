@@ -1,7 +1,6 @@
 # **Loja Ebac** 
 ## *Automação de teste - QA*
-Este projeto foi desenvolvido para `automação de testes` no site:
-http://lojaebac.ebaconline.art.br/
+
 ___
 > Status: Desenvolvido 
 <br>
@@ -13,7 +12,7 @@ ___
 <br>
 
 ## Objetivo
-Este projeto foi desenvolvido para automatizar os sistemas funcionais e não funcionais da Loja Ebac.
+Este projeto foi desenvolvido para `automatizar os sistemas funcionais e não funcionais` da Loja Ebac.
 http://lojaebac.ebaconline.art.br/
 
 ## Clonando e executando em sua máquina 
