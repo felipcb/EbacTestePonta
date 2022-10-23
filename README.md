@@ -8,7 +8,7 @@ ___
 ![img](https://github.com/felipcb/EbacTestePonta/blob/main/images/ebacLoja.png)
 ___
 
-<br>
+ <br>
 <br>
 
 ## Objetivo
